@@ -6,21 +6,24 @@
     --font-footer: "Roboto Mono", Monospace;
 }
 
-body{
+body {
     font-size: var(--font-family);
     font-size: 25px;
     color: var(--text-color);
     text-align: center;
 }
+
 h1 {
     font-family: var(--font-family);
     font-size: 48px;
     text-align: left;
 }
+
 h2 {
     font-family: var(--font-family);
     font-size: 20px;
 }
+
 h3 {
     font-family: var(--font-family);
     font-size: 14px;
@@ -37,17 +40,40 @@ h6 {
     font-size: 30px;
     text-align: center;
 }
+
 img {
     max-width: 100%;
 }
+
+#main-row{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font-family);
+        font-size: 14px;
+        text-align: left;
+        margin-left: 40px;
+        margin-right: 10px;
+}
+
+#main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font-family);
+    font-size: 14px;
+    text-align: left;
+
+}
+
 .nav-link {
     background-color: var(--accent-color);
     color: var(--text-color);
     transition: all 100ms ease-in;
     padding: 10px;
     margin: 4px;
-   border-radius: 10px;
-   text-decoration: none;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .nav-link:hover {
@@ -57,11 +83,13 @@ img {
 
 
 }
+
 #leyenda {
     font-family: var(--font-family);
     font-size: 30px;
     margin: 10px 0;
 }
+
 #team {
     margin: 0 auto;
     float: none;
@@ -70,6 +98,7 @@ img {
     align-items: center;
     flex-direction: row;
 }
+
 #team p {
     font-size: 14px;
 }
