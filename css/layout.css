@@ -57,3 +57,19 @@ img {
 
 
 }
+#leyenda {
+    font-family: var(--font-family);
+    font-size: 30px;
+    margin: 10px 0;
+}
+#team {
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#team p {
+    font-size: 14px;
+}
