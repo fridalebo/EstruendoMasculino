@@ -1,6 +1,6 @@
 :root {
     --bg-color: #ffffff;
-    --link-color: #ffffff;
+    --link-color: #fd0000;
     --text-color: #000;
     --font-family: "palatino-linotype", sans-serif;
     --font-footer: "Roboto Mono", Monospace;
@@ -89,18 +89,20 @@ img {
     font-size: 30px;
     margin: 15px 0;
     padding: 15px 15px;
-    border-bottom: 1px solid #000;
 }
 
 #team {
     margin: 0 auto;
     float: none;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
-
+#main-footer {
+    padding-top: 1em;
+    border-top: 1px solid #000;
+}
 #team p {
     font-size: 14px;
     font-family: var(--font-footer);
@@ -109,7 +111,7 @@ img {
 
 .parrafo-texto {
     text-align: left;      
-    padding-left: 100px;   
+    padding-left: 0px;   
     padding-right: 224px;  
     line-height: 1.6;      
   }
