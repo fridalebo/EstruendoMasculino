@@ -1,14 +1,21 @@
 :root {
-    --bg-color: #ffffff;
-    --link-color: #fd0000;
+    --bg-color: #dcddde;
+    --link-color: #9f0000;
     --text-color: #000;
     --font-family: "Ibarra Real Nova", serif;
     --font-footer: "Roboto Mono", Monospace;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    background-color: var(--bg-color);
     font-size: var(--font-family);
     font-size: 30px;
+    padding: 0;
+    margin: 0;
     color: var(--text-color);
     text-align: left;
 }
@@ -43,33 +50,23 @@ h5 {
 
 }
    
-    h6 {
-        font-family: var(--font-family);
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-
-    }
-
-h7 {
-    font-family: var(--font-footer);
-    font-size: 16px;
-    text-align: left;
+h6 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
 }
 
-#main-row{
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: var(--font-family);
-        font-size: 14px;
-        text-align: left;
-        margin-left: 40px;
-        margin-right: 10px;
+header#main-header{
+    background-color: var(--bg-color);
+}
+header#main-header img{
+    width: 100%;
+    padding: 1em;
 }
 
 #main-nav ul {
@@ -96,8 +93,6 @@ img {
     transition: all 300ms ease-out;
     background-color: var(--hover-color);
     color: var(--link-color);
-
-
 }
 
 #leyenda {

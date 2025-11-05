@@ -1,7 +1,7 @@
 :root {
     --font-base: 'Ibarra Real Nova',serif;
-    --color-text: #FFF;
-    --color-bg: #000;
+    --color-text: #000000;
+    --color-bg: #dcddde;
 }
 
 /* Estilos default */
