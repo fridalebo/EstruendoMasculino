@@ -69,6 +69,11 @@ header#main-header img{
     padding: 1em;
 }
 
+#espejo img{
+width: 100%;
+padding: 0;
+}
+
 #main-nav ul {
     margin: 0;
     padding: 0;
@@ -95,11 +100,22 @@ header#main-header img{
     color: var(--link-color);
 }
 
-#leyenda {
+#leyenda1 {
+    background-color: #000;
+    color: var(--bg-color);
     font-family: var(--font-family);
     font-size: 30px;
     margin: 15px 0;
-    padding: 15px 15px;
+    padding: 15px 0px;
+}
+
+#leyenda2 {
+    background-color: #000;
+    color: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: 30px;
+    margin: 200px 0;
+    padding: 0px 0px;
 }
 
 #team {
