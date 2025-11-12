@@ -42,41 +42,22 @@
         </a>
 
     </header>
-    <nav style="
-    position: fixed;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 9;
-">
-        <ul style="
-    display: inline;
-    list-style: none;
-">
-            <li style="
-    text-align: right;
-">
-                <a class="nav-link" href="manifesto.html" title="Ver"> <img src="./img/Manifiesto_Menu11.svg" alt=""
-                        style="
-    max-width: 200px;
-    width: 100%;
-"> </a>
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a class="nav-link" href="manifesto.html" title="Ver"> <img src="./img/Manifiesto_Menu11.svg"
+                        alt="Manifiesto"> </a>
             </li>
-            <li style="
-    text-align: right;
-    margin-right: 3em;
-">
-                <a class="nav-link" href="exhibicion.html" title="Ver"> <img src="./img/ExhibicionMENU1.svg" style="
-    width: 100%;
-"></a>
+            <li>
+                <a class="nav-link" href="exhibicion.html" title="Ver" id="link-exhibicion">
+                    <img src="./img/ExhibicionMENU1.svg"
+                        alt="exhibición"></a>
 
             </li>
         </ul>
     </nav>
     <main class="Todo">
-        <section class="columns twelve" id="espejo" style="
-        POSITION: RELATIVE;
-    ">
+        <section class="columns twelve" id="espejo">
             <img src="./img/espejo3.jpg" alt="espejo3">
             <article id="leyenda1">
                 <p>Esta exhibición invita a escuchar desde otro lugar. A comprender que el estruendo</p>
@@ -87,10 +68,16 @@
             </article>
         </section>
     </main>
-    <footer class="row" id="main-footer">
-        <div class="columns ten" id="team">
-            <p>Ana Frida Leija Bonilla <br> Santiago García Cantú</p>
-            <p>Estruendo Masculino 2025© <br> @estruendo.masculino</p>
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row" id="team">
+                <div class="columns six" >
+                    <p>Ana Frida Leija Bonilla <br> Santiago García Cantú</p>
+                </div>
+                <div class="columns six">
+                    <p>Estruendo Masculino 2025© <br> @estruendo.masculino</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

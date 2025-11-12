@@ -64,24 +64,39 @@ img {
 header#main-header{
     background-color: var(--bg-color);
 }
+
+#main-header a{
+    display: flex;
+    width: 100%;
+}
 header#main-header img{
     width: 100%;
-    padding: 1em;
+    padding: 0 1em;
 }
 
-#espejo img{
-width: 100%;
-padding: 0;
-}
+#espejo img{width: 100%;display: inline;margin: 0;padding: 0;float: left;}
 
 #main-nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: var(--font-family);
-    font-size: 14px;
     text-align: left;
 
+}
+#main-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+#main-nav ul {
+    display: inline;
+    list-style: none;
+}
+
+#main-nav li {
+    text-align: right;
 }
 
 .nav-link {
@@ -92,7 +107,28 @@ padding: 0;
     margin: 4px;
     border-radius: 10px;
     text-decoration: none;
+    max-width: 200px;
+    width: 30%;
+    display: inline-block;
 }
+
+@media (min-width: 640px) {
+    #nav-link {
+        max-width: 100px;
+    }
+}
+
+@media (min-width:1024px) {
+    #nav-link {
+        max-width: 200px;
+    }
+}
+
+#link-exhibicion{
+    margin-right: 3em;
+}
+
+
 
 .nav-link:hover {
     transition: all 300ms ease-out;
@@ -103,8 +139,23 @@ padding: 0;
 #leyenda1 {
     color: var(--bg-color);
     font-family: var(--font-family);
-    font-size: 30px;
-    margin: 15px 0;
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+@media (min-width: 640px) {
+    #leyenda1 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1024px) {
+    #leyenda1 {
+        font-size: 30px;
+    }
 }
 
 #leyenda1 p {
@@ -121,21 +172,32 @@ padding: 0;
 }
 
 #team {
-    margin: 0 auto;
-    float: none;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
 }
 #main-footer {
     padding-top: 1em;
     border-top: 1px solid #000;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1em;
 }
 #team p {
-    font-size: 14px;
+    font-size: 8px;
     font-family: var(--font-footer);
     text-align: left;
+}
+
+
+@media (min-width: 640px) {
+    #team p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1024px) {
+    #team p {
+        font-size: 14px;
+    }
 }
 
 .parrafo-texto {
