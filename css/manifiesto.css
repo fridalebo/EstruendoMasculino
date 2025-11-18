@@ -111,14 +111,27 @@ color: var(--link-color);
 }
 
 #leyenda1 {
-color: var(--bg-color);
+color: white;
 font-family: var(--font-family);
-font-size: 16px;
+font-size: 48px;
 margin: 0;
 display: block;
-width: 100%;
-float: left;
+width: 60%;
+float: right;
 }
+
+#leyenda1 p {
+    padding: 15px;
+    background-color: #000;
+    margin: 0;
+    width: 90%;
+  
+    }
+    
+    #leyenda1 p:first-child {
+    padding-top: 0;
+    float: left;
+    }
 
 @media (min-width: 640px) {
 #leyenda1 {
@@ -132,18 +145,6 @@ float: left;
 }
 }
 
-#leyenda1 p {
-padding: 15px;
-background-color: #000;
-margin: 0;
-width: 90%;
-float: right;
-}
-
-#leyenda1 p:first-child {
-padding-top: 0;
-float: left;
-}
 
 #team {
 }
