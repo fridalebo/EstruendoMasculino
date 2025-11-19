@@ -61,6 +61,7 @@ h1 {
 h2 {
     font-family: var(--font-family);
     font-size: 20px;
+    margin: 2em 0 .5em 0;
 }
 
 @media (min-width: 640px) {
@@ -94,14 +95,14 @@ header#main-header img {
     padding: 0 1em;
 }
 
-#espejo img {
+#espejo img, #espejo video {
     width: 100%;
     display: inline;
     margin: 0;
     padding: 0;
     float: left;
 }
-
+ 
 header#main-header {
     background-color: var(--bg-color);
 }

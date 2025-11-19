@@ -54,10 +54,8 @@ img {
     font-family: var(--font-family);
     font-size: 48px;
     color: white;
-    display: block;
+    display: inline;
     padding: 0 20px;
-    width: 50%;
-    float: left;
     background-color: #000;
 }
 
@@ -79,9 +77,6 @@ img {
     color: black;
     display: block;
     padding: 0 15px;
-    width: 50%;
-    float: left;
-
 }
 
 @media (min-width: 640px) {
@@ -103,11 +98,12 @@ img {
     color: white;
     display: block;
     padding: 0 15px;
-    width: 50%;
-    float: right;
     background-color: #000;
+    float: right;
 }
-
+#NoEstruendo p {
+    margin: 0;
+}
 @media (min-width: 640px) {
     #NoEstruendo {
         font-size: 30px;
@@ -125,9 +121,8 @@ img {
     font-size: 16px;
     color: black;
     display: block;
-    padding: 0 15px;
-    width: 50%;
     float: right;
+    padding: 0 15px;
 }
 
 @media (min-width: 640px) {
