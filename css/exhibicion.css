@@ -4,13 +4,13 @@
     --text-color: #000;
     --font-family: "Ibarra Real Nova", serif;
     --font-footer: "Roboto Mono", Monospace;
-    }
-    
-    * {
+}
+
+* {
     box-sizing: border-box;
-    }
-    
-    body {
+}
+
+body {
     background-color: var(--bg-color);
     font-size: var(--font-family);
     font-size: 30px;
@@ -18,88 +18,94 @@
     margin: 0;
     color: var(--text-color);
     text-align: left;
-    }
-    
-    h1 {
+}
+
+h1 {
     font-family: var(--font-family);
-    font-size: 51px;
+    color: white;
+    font-size: 80px;
     text-align: left;
-    }
-    
-    h2 {
+    display: block;
+    width: 65%;
+    float: left;
+    margin: 0;
+    background-color: #000;
+}
+
+h2 {
     font-family: var(--font-family);
     font-size: 48px;
-    }
-    
-    h3 {
+}
+
+h3 {
     font-family: var(--font-family);
     font-size: 21px;
     text-align: left;
-    }
-    
-    h4 {
+}
+
+h4 {
     font-family: var(--font-family);
     font-size: 22px;
-    }
-    
-    h5 {
+}
+
+h5 {
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    
-    }
-    
-    h6 {
+
+}
+   
+h6 {
     font-family: var(--font-family);
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    }
-    
-    img {
+}
+
+img {
     max-width: 100%;
-    }
-    
-    header#main-header{
+}
+
+header#main-header{
     background-color: var(--bg-color);
-    }
-    
-    #main-header a{
+}
+
+#main-header a{
     display: flex;
     width: 100%;
-    }
-    header#main-header img{
+}
+header#main-header img{
     width: 100%;
     padding: 0 1em;
-    }
-    
-    #espejo img{width: 100%;display: inline;margin: 0;padding: 0;float: left;}
-    
-    #main-nav ul {
+}
+
+#espejo img{width: 100%;display: inline;margin: 0;padding: 0;float: left;}
+
+#main-nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: left;
-    
-    }
-    #main-nav {
+
+}
+#main-nav {
     position: fixed;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 9;
-    }
-    #main-nav ul {
+}
+#main-nav ul {
     display: inline;
     list-style: none;
-    }
-    
-    #main-nav li {
+}
+
+#main-nav li {
     text-align: right;
-    }
-    
-    .nav-link {
+}
+
+.nav-link {
     background-color: var(--accent-color);
     color: var(--text-color);
     transition: all 100ms ease-in;
@@ -110,89 +116,89 @@
     width: 30%;
     max-width: 200px;
     display: inline-block;
-    }
-    
-    
-    #link-exhibicion{
+}
+
+
+#link-exhibicion{
     margin-right: 3em;
-    }
-    
-    
-    
-    .nav-link:hover {
+}
+
+
+
+.nav-link:hover {
     transition: all 300ms ease-out;
     background-color: var(--hover-color);
     color: var(--link-color);
-    }
-    
-    #leyenda1 {
+}
+
+#leyenda1 {
     color: var(--bg-color);
     font-family: var(--font-family);
     font-size: 16px;
     margin: 0;
     display: block;
-    width: 100%;
-    float: left;
-    }
-    
-    @media (min-width: 640px) {
+    width: 60%;
+    float: right;
+}
+
+@media (min-width: 640px) {
     #leyenda1 {
         font-size: 22px;
     }
-    }
-    
-    @media (min-width:1024px) {
+}
+
+@media (min-width:1024px) {
     #leyenda1 {
         font-size: 30px;
     }
-    }
-    
-    #leyenda1 p {
+}
+
+#leyenda1 p {
     padding: 15px;
     background-color: #000;
     margin: 0;
     width: 90%;
     float: right;
-    }
-    
-    #leyenda1 p:first-child {
+}
+
+#leyenda1 p:first-child {
     padding-top: 0;
     float: left;
-    }
-    
-    #team {
-    }
-    #main-footer {
+}
+
+#team {
+}
+#main-footer {
     padding-top: 1em;
     border-top: 1px solid #000;
     display: inline-block;
     margin: 0 auto;
     width: 100%;
     margin-top: 1em;
-    }
-    #team p {
+}
+#team p {
     font-size: 8px;
     font-family: var(--font-footer);
     text-align: left;
-    }
-    
-    
-    @media (min-width: 640px) {
+}
+
+
+@media (min-width: 640px) {
     #team p{
         font-size: 12px;
     }
-    }
-    
-    @media (min-width:1024px) {
+}
+
+@media (min-width:1024px) {
     #team p {
         font-size: 14px;
     }
-    }
-    
-    .parrafo-texto {
+}
+
+.parrafo-texto {
     text-align: left;      
     padding-left: 0px;   
     padding-right: 224px;  
     line-height: 1.6;      
-    }
-    
+  }
+  
