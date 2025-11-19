@@ -56,11 +56,22 @@ img {
     font-size: 48px;
     color: white;
     display: block;
-    padding: 0 15px;
+    padding: 0 20px;
     width: 50%;
     float: left;
     background-color: #000;
 }
+
+@media (min-width: 640px) {
+    #Estruendo {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1024px) {
+    #Estruendo {
+        font-size: 48px;
+    }
 
 #TextoEstruendo {
     font-family: var(--font-family);
@@ -88,7 +99,7 @@ img {
 
     #NoEstruendo {
         font-family: var(--font-family);
-        font-size: 48px;
+        font-size: 30px;
         color: white;
         display: block;
         padding: 0 15px;
@@ -97,6 +108,16 @@ img {
         background-color: #000;
     }
 
+    @media (min-width: 640px) {
+        #NoEstruendo {
+            font-size: 30px;
+        }
+    }
+    
+    @media (min-width:1024px) {
+        #NoEstruendo {
+            font-size: 48px;
+        }
 
 #TextoNoEstruendo {
     font-family: var(--font-family);
