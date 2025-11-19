@@ -1,143 +1,15 @@
-:root {
-    --bg-color: #dcddde;
-    --link-color: #9f0000;
-    --text-color: #000;
-    --font-family: "Ibarra Real Nova", serif;
-    --font-footer: "Roboto Mono", Monospace;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: var(--bg-color);
-    font-size: var(--font-family);
-    font-size: 30px;
-    padding: 0;
-    margin: 0;
-    color: var(--text-color);
-    text-align: left;
-}
-
-h1 {
-    font-family: var(--font-family);
-    color: white;
-    font-size: 80px;
-    text-align: left;
-    display: block;
-    width: 65%;
-    float: left;
-    margin: 0;
-    background-color: #000;
-}
-
-@media (min-width: 640px) {
-    #h1 {
-        font-size: 60px;
-    }
-}
-
-@media (min-width:1024px) {
-    #h1 {
-        font-size: 80px;
-    }
-}
-
-h2 {
-    font-family: var(--font-family);
-    font-size: 48px;
-}
-
-h3 {
-    font-family: var(--font-family);
-    font-size: 40px;
-    text-align: left;
-}
 
 img {
     max-width: 100%;
 }
 
-header#main-header {
-    background-color: var(--bg-color);
-}
-
-#main-header a {
-    display: flex;
-    width: 100%;
-}
-
-header#main-header img {
-    width: 100%;
-    padding: 0 1em;
-}
-
-#Manifiesto img {
-    width: 78%;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-
-#main-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: left;
-
-}
-
-#main-nav {
-    position: fixed;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 9;
-}
-
-#main-nav ul {
-    display: inline;
-    list-style: none;
-}
-
-#main-nav li {
-    text-align: right;
-}
-
-.nav-link {
-    background-color: var(--accent-color);
-    color: var(--text-color);
-    transition: all 100ms ease-in;
-    padding: 10px;
-    margin: 4px;
-    border-radius: 10px;
-    text-decoration: none;
-    width: 30%;
-    max-width: 200px;
-    display: inline-block;
-}
-
-
-#link-exhibicion {
-    margin-right: 3em;
-}
-
-
-
-.nav-link:hover {
-    transition: all 300ms ease-out;
-    background-color: var(--hover-color);
-    color: var(--link-color);
-}
 
 #leyenda1 {
     color: white;
     background-color: #000;
     font-family: var(--font-family);
     font-size: 20px;
-    margin: 0;
+    padding: 0 15px;
     display: block;
     width: 60%;
     float: right;
@@ -161,7 +33,7 @@ header#main-header img {
     background-color: #000;
     font-family: var(--font-family);
     font-size: 14px;
-    margin: 0;
+  padding: 0 15px;
     display: block;
     width: 60%;
 }
@@ -184,10 +56,9 @@ header#main-header img {
     font-size: 48px;
     color: white;
     display: block;
+    padding: 0 15px;
     width: 50%;
     float: left;
-    margin: 0;
-    padding: 0;
     background-color: #000;
 }
 
@@ -196,10 +67,10 @@ header#main-header img {
     font-size: 16px;
     color: black;
     display: block;
+    padding: 0 15px;
     width: 50%;
     float: left;
-    margin: 0;
-    padding: 0;
+
 }
 
 @media (min-width: 640px) {
@@ -214,15 +85,15 @@ header#main-header img {
     }
 }
 
+
     #NoEstruendo {
         font-family: var(--font-family);
         font-size: 48px;
         color: white;
         display: block;
+        padding: 0 15px;
         width: 50%;
         float: right;
-        margin: 0;
-        padding: 0;
         background-color: #000;
     }
 
@@ -232,10 +103,9 @@ header#main-header img {
     font-size: 16px;
     color: black;
     display: block;
+    padding: 0 15px;
     width: 50%;
     float: right;
-    margin: 0;
-    padding: 0;
 }
 
 @media (min-width: 640px) {
@@ -249,39 +119,4 @@ header#main-header img {
         font-size: 30px;
     }
 
-    #team {}
-
-    #main-footer {
-        padding-top: 1em;
-        border-top: 1px solid #000;
-        display: inline-block;
-        margin: 0 auto;
-        width: 100%;
-        margin-top: 1em;
-    }
-
-    #team p {
-        font-size: 8px;
-        font-family: var(--font-footer);
-        text-align: left;
-    }
-
-
-    @media (min-width: 640px) {
-        #team p {
-            font-size: 12px;
-        }
-    }
-
-    @media (min-width:1024px) {
-        #team p {
-            font-size: 14px;
-        }
-    }
-
-    .parrafo-texto {
-        text-align: left;
-        padding-left: 0px;
-        padding-right: 224px;
-        line-height: 1.6;
-    }
+  

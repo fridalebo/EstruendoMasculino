@@ -1,8 +1,17 @@
+@font-face {
+    font-family: 'Estruendo';
+    src: url('Estruendo-Regular.woff2') format('woff2'),
+        url('Estruendo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --bg-color: #dcddde;
     --link-color: #9f0000;
     --text-color: #000;
-    --font-family: "Ibarra Real Nova", serif;
+    --font-family: "Estruendo", serif;
     --font-footer: "Roboto Mono", Monospace;
 }
 
@@ -22,40 +31,45 @@ body {
 
 h1 {
     font-family: var(--font-family);
-    font-size: 51px;
+    color: white;
+    font-size: 30px;
     text-align: left;
+    display: block;
+    width: 65%;
+    float: left;
+    margin: 0;
+    background-color: #000;
+    padding: 0 15px;
 }
+
+@media (min-width: 640px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width:1024px) {
+    h1 {
+        font-size: 80px;
+    }
 
 h2 {
     font-family: var(--font-family);
-    font-size: 48px;
+    font-size: 20px;
 }
 
-h3 {
-    font-family: var(--font-family);
-    font-size: 21px;
-    text-align: left;
+@media (min-width: 640px) {
+    h2 {
+        font-size: 30px;
+    }
 }
 
-h4 {
-    font-family: var(--font-family);
-    font-size: 22px;
-}
+@media (min-width:1024px) {
+    h2 {
+        font-size: 48px;
+    }
 
-h5 {
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
 
-}
-   
-h6 {
-    font-family: var(--font-family);
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
 
 img {
     max-width: 100%;
@@ -76,6 +90,28 @@ header#main-header img{
 
 #espejo img{width: 100%;display: inline;margin: 0;padding: 0;float: left;}
 
+header#main-header {
+    background-color: var(--bg-color);
+}
+
+#main-header a {
+    display: flex;
+    width: 100%;
+}
+
+header#main-header img {
+    width: 100%;
+    padding: 0 1em;
+}
+
+#Manifiesto img {
+    width: 78%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
 #main-nav ul {
     margin: 0;
     padding: 0;
@@ -83,6 +119,7 @@ header#main-header img{
     text-align: left;
 
 }
+
 #main-nav {
     position: fixed;
     left: 0;
@@ -90,6 +127,7 @@ header#main-header img{
     width: 100%;
     z-index: 9;
 }
+
 #main-nav ul {
     display: inline;
     list-style: none;
@@ -113,7 +151,7 @@ header#main-header img{
 }
 
 
-#link-exhibicion{
+#link-exhibicion {
     margin-right: 3em;
 }
 
