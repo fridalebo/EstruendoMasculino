@@ -29,6 +29,10 @@ body {
     text-align: left;
 }
 
+img {
+    max-width: 100%;
+}
+
 h1 {
     font-family: var(--font-family);
     color: white;
@@ -52,6 +56,7 @@ h1 {
     h1 {
         font-size: 80px;
     }
+}
 
 h2 {
     font-family: var(--font-family);
@@ -68,27 +73,34 @@ h2 {
     h2 {
         font-size: 48px;
     }
-
+}
 
 
 img {
     max-width: 100%;
 }
 
-header#main-header{
+header#main-header {
     background-color: var(--bg-color);
 }
 
-#main-header a{
+#main-header a {
     display: flex;
     width: 100%;
 }
-header#main-header img{
+
+header#main-header img {
     width: 100%;
     padding: 0 1em;
 }
 
-#espejo img{width: 100%;display: inline;margin: 0;padding: 0;float: left;}
+#espejo img {
+    width: 100%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
 
 header#main-header {
     background-color: var(--bg-color);
@@ -188,6 +200,7 @@ header#main-header img {
 #leyenda1 p {
     padding: 15px;
     background-color: #000;
+    color: white;
     margin: 0;
     width: 90%;
     float: right;
@@ -198,8 +211,8 @@ header#main-header img {
     float: left;
 }
 
-#team {
-}
+#team {}
+
 #main-footer {
     padding-top: 1em;
     border-top: 1px solid #000;
@@ -208,6 +221,7 @@ header#main-header img {
     width: 100%;
     margin-top: 1em;
 }
+
 #team p {
     font-size: 8px;
     font-family: var(--font-footer);
@@ -216,7 +230,7 @@ header#main-header img {
 
 
 @media (min-width: 640px) {
-    #team p{
+    #team p {
         font-size: 12px;
     }
 }
@@ -228,9 +242,8 @@ header#main-header img {
 }
 
 .parrafo-texto {
-    text-align: left;      
-    padding-left: 0px;   
-    padding-right: 224px;  
-    line-height: 1.6;      
-  }
-  
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 224px;
+    line-height: 1.6;
+}
