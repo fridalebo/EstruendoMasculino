@@ -32,3 +32,21 @@ header#main-header{
     width: 90%;
     float: right;
 }
+
+#videocontainer{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+#videocontainer button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+#videocontainer button:hover {
+
+}
