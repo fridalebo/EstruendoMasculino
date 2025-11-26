@@ -81,6 +81,7 @@ img {
     max-width: 100%;
 }
 
+
 header#main-header {
     background-color: var(--bg-color);
 }
@@ -249,4 +250,12 @@ header#main-header img {
     padding-left: 0px;
     padding-right: 224px;
     line-height: 1.6;
+}
+
+#instagram {
+    color: #000;
+}
+
+#instagram:hover {
+    color: #000;
 }
