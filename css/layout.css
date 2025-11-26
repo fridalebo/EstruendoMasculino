@@ -175,8 +175,7 @@ header#main-header img {
 
 .nav-link:hover {
     transition: all 300ms ease-out;
-    background-color: var(--hover-color);
-    color: var(--link-color);
+    filter:invert();
 }
 
 #leyenda1 {
@@ -257,5 +256,5 @@ header#main-header img {
 }
 
 #instagram:hover {
-    color: #000;
+    color: white;
 }
