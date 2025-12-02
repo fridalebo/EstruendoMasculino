@@ -1,4 +1,4 @@
-# *Estruendo masculino*
+# Estruendo masculino
 
 El sonido es una forma de habitar. Una materia que nos atraviesa y nos conecta. Cada frecuencia coexiste con otras sin fronteras ni jerarquías. El territorio sonoro es indivisible, un espacio compartido donde el silencio no es ausencia, sino escucha. Pero ese territorio ha sido conquistado por la performatividad masculina hegemónica. La cultura del motor y de la máquina transformó la vibración en dominio. El rugido del motor dejó de ser neutro: delimita el territorio, impone jerarquías y se convierte en una forma de compensación económica y social. La máquina se transforma en símbolo de una masculinidad que proyecta fuerza, ataca vulnerabilidades y normaliza prácticas violentas en la vida cotidiana. Esta exhibición invita a escuchar desde otro lugar. A comprender que el estruendo también puede ser territorio colectivo: materia viva que guarda memoria, cuidado y vínculo. Escuchar es resistir, habitar el sonido sin dominarlo es imaginar otras formas de convivencia acústica, donde lo leve, lo compartido y lo silencioso vuelvan a tener lugar.
 
