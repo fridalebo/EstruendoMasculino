@@ -1,4 +1,4 @@
-header#main-header{
+header#main-header {
     background-color: var(--bg-color);
 }
 
@@ -45,14 +45,14 @@ header#main-header{
     float: right;
 }
 
-#videocontainer{
+#videocontainer {
     position: relative;
     width: 100%;
     display: inline-block;
 }
 
-#videocontainer button{
-   width: 20%;
+#videocontainer button {
+    width: 20%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -62,5 +62,5 @@ header#main-header{
 }
 
 #videocontainer button:hover {
-
+    filter: invert(1);
 }

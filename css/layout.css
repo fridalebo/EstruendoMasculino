@@ -21,7 +21,7 @@
 
 body {
     background-color: var(--bg-color);
-    font-size: var(--font-family);
+    font-family: var(--font-family);
     font-size: 30px;
     padding: 0;
     margin: 0;
@@ -214,7 +214,7 @@ header#main-header img {
     float: left;
 }
 
-#team {}
+
 
 #main-footer {
     padding-top: 1em;

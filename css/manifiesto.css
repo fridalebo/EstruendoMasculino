@@ -63,7 +63,7 @@ img {
     }
 }
 
-#Estruendo {
+#estruendo {
     font-family: var(--font-family);
     font-size: 48px;
     color: white;
@@ -73,7 +73,7 @@ img {
 }
 
 @media (min-width: 640px) {
-    #Estruendo {
+    #estruendo {
         font-size: 30px;
     }
 }
@@ -84,7 +84,7 @@ img {
     }
 }
 
-#TextoEstruendo {
+#textoestruendo {
     font-family: var(--font-family);
     font-size: 16px;
     color: black;
@@ -93,19 +93,19 @@ img {
 }
 
 @media (min-width: 640px) {
-    #TextoEstruendo {
+    #textoestruendo {
         font-size: 22px;
     }
 }
 
 @media (min-width:1024px) {
-    #TextoEstruendo {
+    #textoestruendo {
         font-size: 30px;
     }
 }
 
 
-#NoEstruendo {
+#noestruendo {
     font-family: var(--font-family);
     font-size: 30px;
     color: white;
@@ -114,22 +114,22 @@ img {
     background-color: #000;
  float: right;
 }
-#NoEstruendo p {
+#noestruendo p {
     margin: 0;
 }
 @media (min-width: 640px) {
-    #NoEstruendo {
+    #noestruendo {
         font-size: 30px;
     }
 }
 
 @media (min-width:1024px) {
-    #NoEstruendo {
+    #noestruendo {
         font-size: 48px;
     }
 }
 
-#TextoNoEstruendo {
+#textonoestruendo {
     font-family: var(--font-family);
     font-size: 16px;
     color: black;
@@ -139,13 +139,13 @@ img {
 }
 
 @media (min-width: 640px) {
-    #TextoNoEstruendo {
+    #textonoestruendo {
         font-size: 22px;
     }
 }
 
 @media (min-width:1024px) {
-    #TextoNoEstruendo {
-        font-size: 30px;
+    #textonoestruento {
+n       font-size: 30px;
     }
 }
