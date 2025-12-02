@@ -273,6 +273,7 @@ header#main-header img {
 
 #instagram {
     color: #000;
+    text-decoration: none;
 }
 
 #instagram:hover {
